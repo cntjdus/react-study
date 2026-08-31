@@ -1,4 +1,4 @@
-# ⚛️ CECOM React Study 26-2
+# ⚛️ CECOM React Study 26-2 ⚛️ 
 
 > **CECOM Web Study — React**  
 > HTML/CSS/JavaScript 기초부터 React, API 연동, 배포까지 직접 구현하며 익히는 프론트엔드 스터디입니다.
@@ -9,8 +9,6 @@
 
 단순히 개념을 듣고 끝나는 것이 아니라,  
 매주 **직접 코드를 작성하고 결과물을 만들어보는 것**을 목표로 합니다.
-
-스터디가 끝날 때에는 React를 활용해 하나의 웹 서비스를 직접 구현하고 배포할 수 있도록 진행합니다.
 
 <br/>
 
@@ -26,47 +24,6 @@
 | **06** | Vercel | 프로젝트 배포하기 |
 
 > 커리큘럼은 스터디 진행 상황에 따라 일부 변경될 수 있습니다.
-
-<br/>
-
-## 🧩 What We Learn
-
-### HTML / CSS / JavaScript
-- HTML 기본 구조
-- CSS 스타일링
-- JavaScript DOM
-- Event 처리
-
-### React
-- JSX
-- Component
-- Props
-- State
-- Event Handling
-- React Router
-
-### Styling
-- CSS
-- styled-components
-- Tailwind CSS
-
-### React Development
-- Vite
-- 고유 ID
-- Side Effect
-- 전역 상태 관리
-
-### API
-- REST API
-- `fetch`
-- 비동기 처리
-- API 응답 데이터 렌더링
-
-### Deployment
-- Vercel
-- Build
-- Environment Variables
-- 배포 환경 이해
 
 <br/>
 
