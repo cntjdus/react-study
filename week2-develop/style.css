@@ -29,9 +29,7 @@ body {
     #eef1f7;
 }
 
-/* =========================
-   전체 화면
-========================= */
+/* 전체 화면 */
 
 .desktop {
   min-height: 100vh;
@@ -45,9 +43,7 @@ body {
   padding: 40px 20px;
 }
 
-/* =========================
-   Flip
-========================= */
+/* Flip */
 
 .flip-container {
   width: 100%;
@@ -87,9 +83,7 @@ body {
   transform: rotateY(180deg);
 }
 
-/* =========================
-   Mac Window
-========================= */
+/* Mac Window */
 
 .window {
   width: 100%;
@@ -109,9 +103,7 @@ body {
   backdrop-filter: blur(22px);
 }
 
-/* =========================
-   Mac 상단 바
-========================= */
+/* Mac 상단 바 */
 
 .window-bar {
   height: 52px;
@@ -167,17 +159,11 @@ body {
   width: 55px;
 }
 
-/* =========================
-   내부 내용
-========================= */
-
 .window-content {
   padding: 48px 52px;
 }
 
-/* =========================
-   프로필
-========================= */
+/* 앞면 프로필 */
 
 .profile-top {
   display: flex;
@@ -234,9 +220,7 @@ h1 {
   font-size: 17px;
 }
 
-/* =========================
-   소개
-========================= */
+/* 소개 */
 
 .intro {
   margin: 32px 0 0;
@@ -262,9 +246,7 @@ h1 {
   background-color: #e2e2e4;
 }
 
-/* =========================
-   Section
-========================= */
+/* Section */
 
 .section {
   margin-top: 30px;
@@ -281,9 +263,7 @@ h1 {
   color: #999;
 }
 
-/* =========================
-   About Me
-========================= */
+/* About Me */
 
 .info-grid {
   display: grid;
@@ -332,9 +312,7 @@ h1 {
   font-size: 15px;
 }
 
-/* =========================
-   I LIKE
-========================= */
+/* I LIKE */
 
 .tags {
   display: flex;
@@ -370,9 +348,7 @@ h1 {
     0 7px 16px rgba(0, 0, 0, 0.08);
 }
 
-/* =========================
-   Contact
-========================= */
+/* Contact */
 
 .links {
   display: grid;
@@ -446,10 +422,6 @@ h1 {
     0 8px 16px rgba(0, 0, 0, 0.12);
 }
 
-/* =========================
-   Gallery Header
-========================= */
-
 .gallery-header {
   display: flex;
 
@@ -458,6 +430,8 @@ h1 {
 
   gap: 20px;
 }
+
+/* Back Button */
 
 .back-button {
   padding: 10px 16px;
@@ -485,9 +459,7 @@ h1 {
   transform: translateX(-2px);
 }
 
-/* =========================
-   Gallery
-========================= */
+/* 뒷면 갤러리 부분 */
 
 .gallery-grid {
   display: grid;
@@ -532,9 +504,7 @@ h1 {
   filter: brightness(0.92);
 }
 
-/* =========================
-   Footer
-========================= */
+/* Footer */
 
 .hint {
   width: 100%;
@@ -550,9 +520,7 @@ h1 {
   text-align: center;
 }
 
-/* =========================
-   Mobile
-========================= */
+/* Mobile */
 
 @media (max-width: 600px) {
   .desktop {
