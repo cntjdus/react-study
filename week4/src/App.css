@@ -139,13 +139,23 @@ button {
   line-height: 1.65;
 }
 
+/* ========================================
+   Shop + Cart 공통 너비
+======================================== */
+
+.shop,
+.cart-section {
+  width: calc(100% - 96px);
+  max-width: 1200px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Shop */
 
 .shop {
-  max-width: 1200px;
-
-  margin: 0 auto;
-  padding: 0 48px 120px;
+  padding: 0 0 120px;
 }
 
 .section-header,
@@ -284,9 +294,7 @@ button {
 /* Cart */
 
 .cart-section {
-  max-width: 1200px;
-
-  margin: 0 auto 32px;
+  margin-bottom: 32px;
   padding: 50px 48px;
 
   background: white;
@@ -480,6 +488,7 @@ footer {
 /* Responsive */
 
 @media (max-width: 760px) {
+
   .header {
     padding: 0 20px;
   }
@@ -499,10 +508,15 @@ footer {
     font-size: 16px;
   }
 
+  /* 모바일에서도 Shop과 Cart 너비 통일 */
+
+  .shop,
+  .cart-section {
+    width: calc(100% - 40px);
+  }
+
   .shop {
-    padding:
-      0 20px
-      80px;
+    padding: 0 0 80px;
   }
 
   .product-grid {
@@ -514,9 +528,7 @@ footer {
   }
 
   .cart-section {
-    margin:
-      0 20px
-      60px;
+    margin-bottom: 32px;
 
     padding: 36px 22px;
 
