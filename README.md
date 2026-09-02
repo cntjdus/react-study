@@ -1,6 +1,5 @@
 # ⚛️ 26-2 CECOM React Study
-
-> **CECOM React Study**  
+ 
 > HTML/CSS/JavaScript 기초부터 React, API 연동, 배포까지 직접 구현하며 익히는 프론트엔드 스터디입니다.
 
 <br/>
