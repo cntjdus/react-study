@@ -16,12 +16,12 @@
 
 | Week | Topic | Practice |
 |:---:|---|---|
-| **01** | Git & GitHub | Git 기본 명령어 및 협업 방식 익히기 |
+| **01** | OT | X |
 | **02** | HTML / CSS / JavaScript | 자기소개 웹 페이지 만들기 |
-| **03** | React Component | Component 구조 이해 및 스타일링 |
-| **04** | Vite & React | 기존 웹 페이지 React 프로젝트로 옮기기 |
+| **03** | React Component | X |
+| **04** | Vite & React | 장바구니 만들기 |
 | **05** | API | API를 활용한 챗봇 만들기 |
-| **06** | Vercel | 프로젝트 배포하기 |
+| **06** | Vercel | 챗봇 프로젝트 배포하기 |
 
 > 커리큘럼은 스터디 진행 상황에 따라 일부 변경될 수 있습니다.
 
