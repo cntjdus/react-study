@@ -88,14 +88,12 @@ button {
 
   border-radius: 50%;
 
-  background: #1d1d1f;
+  background: #0077ed;
   color: white;
 
   font-size: 11px;
   font-weight: 600;
 }
-
-/* Hero */
 
 .hero {
   max-width: 1200px;
@@ -139,9 +137,7 @@ button {
   line-height: 1.65;
 }
 
-/* ========================================
-   Shop + Cart 공통 너비
-======================================== */
+/* Shop + Cart 공통 너비 */
 
 .shop,
 .cart-section {
@@ -263,7 +259,7 @@ button {
   border: none;
   border-radius: 12px;
 
-  background: #1d1d1f;
+  background: #0077ed;
   color: white;
 
   font-size: 14px;
@@ -277,7 +273,7 @@ button {
 }
 
 .add-button:hover {
-  background: #333336;
+  background: #001eff;
 }
 
 .add-button:active {
