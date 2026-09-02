@@ -29,6 +29,7 @@ body {
     #eef1f7;
 }
 
+/* 전체 화면 */
 
 .desktop {
   min-height: 100vh;
@@ -42,6 +43,7 @@ body {
   padding: 40px 20px;
 }
 
+/* Mac Window */
 
 .window {
   width: 100%;
@@ -62,6 +64,7 @@ body {
   backdrop-filter: blur(22px);
 }
 
+/* Mac 상단 바 */
 
 .window-bar {
   height: 52px;
@@ -121,6 +124,7 @@ body {
   padding: 48px 52px;
 }
 
+/* Profile Section */
 
 .profile-top {
   display: flex;
@@ -178,6 +182,7 @@ h1 {
   font-size: 17px;
 }
 
+/* 소개 */
 
 .intro {
   margin: 32px 0;
@@ -217,6 +222,7 @@ h1 {
   color: #999;
 }
 
+/* About Me */
 
 .info-grid {
   display: grid;
@@ -260,6 +266,8 @@ h1 {
   font-size: 15px;
 }
 
+/* I LIKE */
+
 .tags {
   display: flex;
   flex-wrap: wrap;
@@ -291,6 +299,8 @@ h1 {
   box-shadow:
     0 7px 16px rgba(0, 0, 0, 0.08);
 }
+
+/* Contact Section, Hello Button */
 
 .links {
   display: grid;
@@ -352,6 +362,7 @@ h1 {
   transform: translateY(-2px);
 }
 
+/* footer */
 
 .hint {
   margin-top: 20px;
@@ -361,6 +372,8 @@ h1 {
   text-align: center;
   line-height: 1.6;
 }
+
+/* mobile */
 
 @media (max-width: 600px) {
   .window-content {
