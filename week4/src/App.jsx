@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 
+// 현재 저는 mock data 파일을 따로 분리하지 않고 App.jsx 안에 작성했지만, 실제 프로젝트에서는 mock data를 별도의 파일로 분리하는 것을 추천드려요!
 const products = [
   {
     id: 1,
@@ -104,13 +105,13 @@ function App() {
         <section className="hero">
 
           <p className="hero-label">
-            CECOM STORE
+            CECOM ONLINE STORE
           </p>
 
           <h1>
-            Simple things,
+            Welcome to
             <br />
-            made for CECOM.
+            CECOM ONLINE STORE
           </h1>
 
           <p className="hero-description">
